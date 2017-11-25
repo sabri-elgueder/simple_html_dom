@@ -1,4 +1,4 @@
-php-simple-html-dom-parser
+PHP Simple HTML DOM Parser
 ==========================
 
 Version 1.5
