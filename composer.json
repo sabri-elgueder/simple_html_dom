@@ -1,0 +1,26 @@
+{
+	"name": "satoripophq/simple_html_dom",
+	"description": "A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way!",
+	"keywords": ["dom", "php dom"],
+	"homepage": "http://simplehtmldom.sourceforge.net/",
+	"type": "library",
+	"version": "1.5",
+	"require": {
+		"php": ">=5.2.4",
+		"ext-mbstring": "*"
+	},
+	"authors": [
+		{
+			"name": "Sabri El Gueder",
+			"email": "sabri.elgueder@gmail.com",
+			"homepage": "http://www.sabri-elgueder.com"
+		}
+	],
+	"autoload": {
+		"classmap": ["simple_html_dom.php"],
+		"files": ["simple_html_dom.php"],
+		"psr-4": {
+            "SimpleHtmlDom\\": "vendor/simple_html_dom/"
+        }
+	}
+}
